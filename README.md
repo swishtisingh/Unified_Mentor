@@ -32,7 +32,7 @@ The main objectives of this analysis were:
 
 ## Analysis Performed
 
-### 1. Sales Data Analysis (`Dataset_01.csv`)
+### 1. Sales Data Analysis
 - **Categorical Data Distribution**:
   - Generated bar plots to analyze the distribution of sales across different regions, item types, sales channels, and order priorities.
 - **Time Series Analysis**:
@@ -42,7 +42,7 @@ The main objectives of this analysis were:
 - **Comparative Analysis**:
   - Used box plots and violin plots to compare total profit and total revenue across different item types and order priorities.
 
-### 2. Sector Investment Data Analysis (`Dataset_02.csv`)
+### 2. Sector Investment Data Analysis
 - **Trend Analysis**:
   - Developed line plots to analyze investment trends over the years for each sector.
 - **Comparative Analysis**:
@@ -56,15 +56,24 @@ The main objectives of this analysis were:
 
 ## Tools Used
 - **Python**: For data analysis and visualization.
-- **Libraries**: Pandas, Matplotlib, Seaborn.
+- **Libraries**: Numpy, Pandas, Matplotlib, Seaborn.
 
 ## Conclusion
-The in-depth analysis of these datasets provided valuable insights into sales trends, investment patterns, and sector performance over time. The visualizations enabled better understanding and communication of the findings, aiding in strategic decision-making.
+1. Both online and offline sales channels have equal sales.
+2. The sales data is divided into 07 regions.Sub-Saharan Africa has highesrt sales and North America has minimum sales.
+3. 22% of the orders experienced cancellations.
+4. More number of offline orders are being cancelled than the online orders. 
+5. Delivery duration is not the main reason for cancelling the order.
+6. Months of october and march have highest sales.
 
-## Future Work
-- Further analysis could involve predictive modeling to forecast future sales and investment trends.
-- Additional datasets could be integrated to provide a more comprehensive analysis.
+## Recommendations
+Since more number of offline orders are being cancelled than the online orders it implies that there is some problem in offline stores. We can take the following measures to solve this issue:
+1. Improve stock tracking and replenishment processes to ensure items are available when ordered.
+2. Enhance communication with customers about stock availability and estimated delivery/pickup times.
+3. Train staff to provide better customer service and create a more pleasant shopping environment.
+4. Implement easy and customer-friendly return or exchange policies to reduce cancellations due to customer uncertainty.
+5. Introduce promotions or loyalty programs that incentivize customers to complete their purchases rather than cancel them.
 
 ## Acknowledgements
-I would like to thank my mentors and team members for their guidance and support throughout this internship.
+I would like to thank my mentors from Unified Mentor for their guidance and support throughout this internship.
 
